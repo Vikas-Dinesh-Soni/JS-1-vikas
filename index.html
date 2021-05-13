@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header footer section</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body >
+    <div class=" nav">
+        <header class="head">
+            <!-- <div class="lobo"><h3>--- Walber Web ---</h3></div> -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a> </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Lets start with the form  -->
+    <h1 id="head">Registration Form</h1>
+    <div class="form">
+    <table class="table">
+        <div id="b1">
+            <tr>
+                <td>First Name </td>
+                <td><input type="text" name="firstname" id="fname"></td>
+            </tr>
+        </div>
+        <div id="b2">
+            <tr>
+                <td>Middle Name </td>
+                <td><input type="text" name="middlename" id="mname"></td>
+            </tr>
+        </div>
+        <div id="b3">
+            <tr>
+                <td>Last Name </td>
+                <td><input type="text" name="lastname" id="lname"></td>
+            </tr>
+        </div>
+        <div id="b4">
+            <tr>
+                <td>Age </td>
+                <td><input type="number" name="agae" id="age"></td>
+            </tr>
+        </div>
+        <div id="b5">
+            <tr>
+                <td>Password </td>
+                <td><input type="password" name="password" id="pass"></td>
+            </tr>
+        </div>
+        <div >
+           <tr>
+               <td id="b6" >You are Eligible</td>
+           </tr>
+        </div>
+        <div id="b7">
+           <tr>
+               <td id="elig">You are Eligible</td>
+           </tr>
+        </div>
+    </table>
+</div>
+    <div class="but">
+        <button name="Verify Details" onclick="validate()">Verify</button>
+    </div>
+    <div class="but">
+        <button type="submit" id="sub" onclick="submit()">Submit</button>
+    </div>
+
+    <div class="foot">
+        <footer>
+            <p id="pft">Test footer &copy; ITMUR</p>
+        </footer>
+    </div>
+</body>
+
+</html>
